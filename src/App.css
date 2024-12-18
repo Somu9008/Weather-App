@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.weather{
+  background: linear-gradient(-190deg,rgb(135, 201, 255),rgb(255, 255, 255));
+
+  height: 100vh;
+}
+
+.weather-container{
+  height: 34rem;
+  width: 25rem;
+  border-radius: 1rem;
+  background:linear-gradient(rgb(86, 162, 255),rgb(2, 68, 109));
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+
+.weather-container .input-field{
+  /* border: 1px solid red; */
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.weather-container .input-field input{
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 50%;
+  border: none;
+  outline: none;
+}
+
+.weather-container .input-field img{
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 1.4rem;
+  background-color: white;
+  padding: 0.8rem;
+  margin-left: 1rem;
+}
+
+.weather-container .weather-info{
+  /* border: 1px solid orange; */
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.weather-container .weather-info img{
+  width: 8rem;
+  height: 8rem;
+}
+
+.weather-container .weather-info h1{
+    font-size: 4rem;
+    margin: 0 2rem 0 2rem;
+    margin-bottom: 0;
+    color: antiquewhite;
+}
+
+.weather-container .weather-info h3{
+  font-size: 2rem;
+  margin: 0.5rem 2rem 0.5rem 2rem;
+  color: white;
+}
+
+
+.weather-container .weather-humidity-wind{
+  display: flex;
+  /* border: 1px solid green; */
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+color: white;
+margin-top: 3rem;
+}
+
+.weather-container .weather-humidity-wind img{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.weather-container .weather-humidity-wind .humidity{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-basis: 50%;
+
+
+
+}
+
+.weather-container .weather-humidity-wind .humidity h4,p{
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.weather-container .weather-humidity-wind .wind h4,p{
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.weather-container .weather-humidity-wind .wind{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  gap: 1rem;
+}
